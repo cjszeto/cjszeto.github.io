@@ -32,7 +32,7 @@ nav ul li a{
 
 h2{
     font-family: variex,sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2em;
     font-style: normal;
     color: rgb(60, 93, 255);
@@ -41,7 +41,7 @@ h2{
 
 h3{
     font-family: variex,sans-serif;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 1.3em;
     font-style: normal;
     color: rgb(99, 91, 62);
@@ -50,7 +50,7 @@ h3{
 
 h3.coffee{
     font-family: variex,sans-serif;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 1.5em;
     font-style: normal;
     color: rgb(99, 91, 62);
