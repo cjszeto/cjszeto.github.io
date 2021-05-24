@@ -3,6 +3,10 @@
 @import url(https://use.typekit.net/hvp0lmd.css);
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
 
+div.container {
+    margin: auto;
+    padding: 1em;
+}
 img {
     width: 100%; 
     margin: 0;
@@ -10,7 +14,6 @@ img {
 
 h1 {
     width:10em;
-    margin-left: 1.2em;
 }
 
 body {
@@ -21,7 +24,6 @@ nav ul li{
     display: inline;
     list-style: none;
     text-transform: uppercase;
-    margin-right: 1em;
     font-family: sans-serif;
 }
 
@@ -30,7 +32,11 @@ nav ul li a{
     text-decoration: none;
     font-family: hypatia-sans-pro,sans-serif;
     font-weight: 550;
-    margin-left: 2em;
+    margin: 0em 2em 0em 0em;
+}
+
+li a:hover {
+    color: rgb(60, 93, 255);
 }
 
 h2{
@@ -39,7 +45,7 @@ h2{
     font-size: 2em;
     font-style: normal;
     color: rgb(60, 93, 255);
-    margin: 1.2em;
+    margin-top: .5em;
 }
 
 h3{
@@ -48,7 +54,11 @@ h3{
     font-size: 1.3em;
     font-style: normal;
     color: rgb(99, 91, 62);
-    margin-top: 2em;
+    margin-top: 1.3em;
+}
+
+h3.li{
+    list-style: none;
 }
 
 h3.coffee{
@@ -58,10 +68,12 @@ h3.coffee{
     font-style: normal;
     color: rgb(99, 91, 62);
     margin-top: 2em;
-    margin-left: 1.7em;
     margin-bottom: .2em;
 }
 
+.menustyle li{
+    padding: .5em 0em 0.5em 0em;
+}
 .menustyle ul {
     font-family: hypatia-sans-pro,sans-serif;
     font-weight: 550;
@@ -75,7 +87,7 @@ h3.coffee{
     font-family: hypatia-sans-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 2.4em;
+    margin-top: .3em;
 }
 
 .locations li{
@@ -91,7 +103,6 @@ footer{
     font-weight: 400;
     font-size: .75em;
     font-style: normal;
-    margin-left: 2.4em;
     margin-top: 3em;
 }
 
@@ -100,8 +111,7 @@ footer{
        header {
             display: grid;
             grid-template-columns: 50% 50%;
-            margin-top: 1em;
-            
+            margin-top: 1em; 
         }
 
         header nav ul{
@@ -111,7 +121,7 @@ footer{
         header nav ul li {
             font-size: 1.23em;
         }
-        
+
         nav ul li a:hover {
             color: rgb(60, 93, 255); 
         }
