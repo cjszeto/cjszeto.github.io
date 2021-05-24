@@ -111,5 +111,9 @@ footer{
         header nav ul li {
             font-size: 1.23em;
         }
+        
+        nav ul li a:hover {
+            color: rgb(60, 93, 255); 
+        }
 }
 /*Please don’t change this CSS stylesheet for the content hierarchy assginment */
