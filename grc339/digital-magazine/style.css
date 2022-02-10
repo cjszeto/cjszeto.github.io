@@ -1,0 +1,72 @@
+/*CSS document*/
+
+@import url("https://use.typekit.net/fze8osl.css");
+
+body {
+    background-color:#F8FBEF;
+
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 1em;
+    font-family: sans-serif;
+}
+
+nav ul li a{
+    color: rgb(99, 91, 62);
+    text-decoration: none;
+    font-family: Kigelia LGC,sans-serif;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #68793E;
+  }
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    color: #68793E;
+    font-family: garamond premier pro regular;
+}
+
+h3 {
+    color: #68793E;
+}
+
+p{
+    color: rgb(99, 91, 62); 
+    text-decoration: none;
+    font-family: Kigelia LGC,sans-serif;
+    padding-bottom: 2em;
+}
+
+figcaption{
+    color: rgb(99, 91, 62); 
+    text-decoration: none;
+    font-family: garamond premier pro regular;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
